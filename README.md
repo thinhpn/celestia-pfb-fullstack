@@ -14,6 +14,7 @@ Prerequisites:
     * gas_limit
     * fee
     * Send a POST request to the running network node's port 26659 (http://localhost:26659/submit_pfb) and wait for the response.
+
 Therefore, we need to prepare the following conditions:
 
  * Run a fullnode or lightnode for the Celestia network.
