@@ -7,13 +7,13 @@ Here's a summary of the process:
 
 Prerequisites:
 
-Run a Celestia network node (fullnode-lightnode)
-Prepare the required parameters for a Play For Blob (PFB) transaction:
- * namespace_id
- * data
- * gas_limit
- * fee
- * Send a POST request to the running network node's port 26659 (http://localhost:26659/submit_pfb) and wait for the response.
+ * Run a Celestia network node (fullnode-lightnode)
+ * Prepare the required parameters for a Play For Blob (PFB) transaction:
+    * namespace_id
+    * data
+    * gas_limit
+    * fee
+    * Send a POST request to the running network node's port 26659 (http://localhost:26659/submit_pfb) and wait for the response.
 Therefore, we need to prepare the following conditions:
 
  * Run a fullnode or lightnode for the Celestia network.
@@ -27,7 +27,6 @@ Therefore, we need to prepare the following conditions:
  First, I will build the Backend system using the NodeJS framework. This is a platform that I am familiar with and is also beginner-friendly.
 
 I plan to implement the following features for the Backend system:
-
  * Check the TIA token balance of the system wallet.
  * Check the node parameters (e.g., uptime score%) to ensure the node is functioning properly.
  * Encode user-inputted namespace and data into the required hexadecimal format for PFB.
