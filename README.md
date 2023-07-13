@@ -67,7 +67,5 @@ Deployment steps:
  3. Update your environment variables.
  4. Run `yarn dev` for dev & `yarn build` for production enviroment.
 
-Please experience the results we have achieved at: https://pfb.thinhpn.com/
-
 Happy Coding!
 
